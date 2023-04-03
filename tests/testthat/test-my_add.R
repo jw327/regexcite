@@ -3,7 +3,7 @@ test_that("`my_add` returns the sum of x and y", {
   expect_equal(my_add(7, 9), 16)
 })
 
-test_that("`my_add` returns x + 10 when only x is provided ", {
+test_that("`my_add` returns x + 10 when only x is provided", {
   expect_equal(my_add(1), 11)
   expect_equal(my_add(10), 20)
 })
